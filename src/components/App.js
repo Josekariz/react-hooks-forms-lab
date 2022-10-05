@@ -11,9 +11,6 @@ function App() {
     setItems([...items, item]);
   }
 
-
-
-
   function handleDarkModeClick() {
     setIsDarkMode((isDarkMode) => !isDarkMode);
   }
